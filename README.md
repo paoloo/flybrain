@@ -1,4 +1,4 @@
-# flyBrain - a fly connectome that plays a flying game
+# flyBrain - a fly connectome that controls direction
 
 This repository runs a simulation of the adult male fruit fly's central
 nervous system and lets you interact with it. The wiring between the
