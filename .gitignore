@@ -1,0 +1,56 @@
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- macOS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.fseventsd
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+.cursor/
+
+# --- This project: heavy and rebuildable data ---
+# Prepared MaleCNS connectome (~1.2 GB). Rebuild with:
+#   conda run -n mcp python -m flybrain.data --prepare --cache data/cache
+data/cache/
+
+# Experiment outputs (telemetry CSVs, eye PNGs) from runs of the demos
+runs/
+
+# Download/build logs
+*.log
+data/*.log
+
+# OS/env accidentals in data/
+data/raw/
+
+# Inert reference copies of ornata/fly source files (that repo has no license
+# file; nothing in this repo imports them). Keep private or delete before push.
+data/data.py
+data/retina.py
+data/main.py
+data/requirements-ornata.txt
