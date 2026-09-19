@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 Paolo Oliveira
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Third-party assets and their terms (not covered by the MIT license above):
+
+1. MaleCNS v1.0 connectome data. The prepared cache this software downloads
+   and builds (data/cache/) is derived from the MaleCNS dataset by Berg et
+   al., licensed CC-BY 4.0: https://male-cns.janelia.org/download/
+   Citation: Berg, S. et al. "Sexual dimorphism in the complete Drosophila
+   male central nervous system connectome." Cell 189(18), 2026.
+   DOI 10.1016/j.cell.2026.08.015.
+
+2. Model semantics (LIF parameters, retinal encoding, motor decoding) follow
+   the fly64 project by ornata (https://github.com/ornata/fly), which at the
+   time of writing carries no license file. No source code from that
+   repository is distributed here; see PROVENANCE.md for the file-by-file
+   provenance and the differential validation of the clean-room retina
+   implementation.
+
+The MIT license applies to the source code in this repository. The derived
+connectome cache remains subject to CC-BY 4.0 with attribution as above.
